@@ -1,3 +1,18 @@
 footer{
-    background: 
+    background: #950740;
+    padding: 4rem 0;
+}
+
+footer h3{
+    color: #E5E5E5;
+    font-weight: 600;
+}
+
+.footer-links a{
+    color: #E5E5E5;
+    display: block;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
 }

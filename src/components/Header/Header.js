@@ -13,7 +13,7 @@ const Header = () => {
                 <Link to='/' className='text-2xl font-semibold'>Smart <span className="highlight">T</span>ech</Link>
                 <ul className={`w-full py-3 lg:py-0 absolute bg-white lg:bg-inherit lg:static lg:w-auto  left-0  lg:flex z-10 lg:z-0 duration-300 ease-in lg:space-x-3 space-y-2 lg:space-y-0 px-3 lg:px-0 shadow-md lg:shadow-none ${ open? 'top-14': 'top-[-180px]'}` }>
                     <li>
-                        <NavLink className={({isActive}) => (isActive ? "active-link" : "link")} to="/home">Home</NavLink>
+                        <NavLink className={({isActive}) => (isActive ? "active-link" : "link")} to="/">Home</NavLink>
                     </li>
                     <li>
                         <NavLink className={({isActive}) => (isActive ? "active-link" : "link")} to='/reviews'>Reviews</NavLink>

@@ -33,7 +33,7 @@ const Home = () => {
                     <img className='w-full' src={Watch} alt="" />
                 </div>
             </div>
-            <div className='w-5/6 mx-auto py-6'>
+            <div className='w-5/6 mx-auto py-10 pb-20'>
                 <h2 className="text-4xl text-center section-title mb-5">Customer Reviews</h2>
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8'>
                     {
