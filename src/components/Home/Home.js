@@ -6,7 +6,7 @@ import Review from '../Review/Review';
 import { useNavigate } from 'react-router-dom';
 const Home = () => {
 
-    const [reviews, setReviews] = useReviews();
+    const [reviews, ] = useReviews();
 
     // console.log(reviews)
     const navigate = useNavigate();
@@ -29,7 +29,7 @@ const Home = () => {
                     </p>
                     <button className="btn">Read More</button>
                 </div>
-                <div className='w-5/6 mx-auto order-1 md:order-2 mb-3 lg:mb-0'>
+                <div className='watch-img w-5/6 mx-auto order-1 md:order-2 mb-3 lg:mb-0'>
                     <img className='w-full' src={Watch} alt="" />
                 </div>
             </div>

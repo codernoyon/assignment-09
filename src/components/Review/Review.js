@@ -6,7 +6,7 @@ const Review = ({ review }) => {
     console.log(review);
     return (
         <div className='text-center review-box'>
-            <div className='w-1/6 mx-auto mb-3'>
+            <div className='reviewer-img mx-auto mb-3'>
                 <img className='w-full' src={img} alt="" />
             </div>
             <p className='describe'>

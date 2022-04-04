@@ -4,11 +4,13 @@
     ;box-shadow: -2px 2px 12px 0px #0000001f;
     transition: .3s;
     border-radius: .3rem;
+    cursor: pointer;
 
 }
 
 .review-box:hover{
     box-shadow: -2px 2px 12px 0px #00000036;
+    transform: scale(1.01);
 
 }
 
@@ -17,4 +19,16 @@
     color: #4E4E50;
     font-family: 'Roboto';
     margin-bottom: .5rem;
+}
+
+.reviewer-img {
+    width: 60px;
+    height: 60px;
+}
+
+.reviewer-img img{
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
