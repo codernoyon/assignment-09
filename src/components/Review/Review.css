@@ -1,0 +1,20 @@
+.review-box{
+    background: #F9F9F9;
+    padding: 3rem 1rem;
+    ;box-shadow: -2px 2px 12px 0px #0000001f;
+    transition: .3s;
+    border-radius: .3rem;
+
+}
+
+.review-box:hover{
+    box-shadow: -2px 2px 12px 0px #00000036;
+
+}
+
+
+.describe{
+    color: #4E4E50;
+    font-family: 'Roboto';
+    margin-bottom: .5rem;
+}

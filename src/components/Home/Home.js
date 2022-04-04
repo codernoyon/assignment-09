@@ -3,16 +3,22 @@ import "./Home.css";
 import Watch from "../../Assets/img/watch.png";
 import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
-
+import { useNavigate } from 'react-router-dom';
 const Home = () => {
 
     const [reviews, setReviews] = useReviews();
 
     // console.log(reviews)
+    const navigate = useNavigate();
+
+    const goReviews = () => {
+        const path = '/reviews';
+        navigate(path);
+    }
 
     return (
         <section>
-            <div className='mt-6 w-5/6 mx-auto grid md:grid-cols-2 items-center -z-10 py-5'>
+            <div className='mt-6 w-5/6 mx-auto grid md:grid-cols-2 items-center -z-10 py-6'>
                 <div className='order-2 md:order-1'>
                     <h2 className="text-4xl lg:text-6xl">
                         The Best <span className="highlight">Watch</span> <br />
@@ -27,17 +33,19 @@ const Home = () => {
                     <img className='w-full' src={Watch} alt="" />
                 </div>
             </div>
-            <div className='w-5/6 mx-auto py-5'>
+            <div className='w-5/6 mx-auto py-6'>
                 <h2 className="text-4xl text-center section-title mb-5">Customer Reviews</h2>
-                <div className='grid grid-cols-3 gap-4 mb-8'>
+                <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8'>
                     {
-                        reviews.map(review => <Review
+                        reviews.slice(0, 3).map(review => <Review
                             key={review.id}
                             review={review}
                         ></Review>)
                     }
                 </div>
-                <button className="btn">See All Reviews</button>
+                <div className='text-center'>
+                    <button onClick={goReviews} className="btn">See All Reviews</button>
+                </div>
             </div>
         </section>
     );
