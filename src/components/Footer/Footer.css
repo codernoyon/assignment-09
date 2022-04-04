@@ -1,11 +1,13 @@
 footer{
     background: #950740;
     padding: 4rem 0;
+    padding-bottom: 1rem;
 }
 
 footer h3{
     color: #E5E5E5;
     font-weight: 600;
+    margin-bottom: .5rem;
 }
 
 .footer-links a{
@@ -15,4 +17,21 @@ footer h3{
 
 .footer-links a:hover{
     text-decoration: underline;
+}
+
+
+
+footer .btn{
+    color: #E5E5E5;
+    background: #d31460;
+    font-weight: 600;
+}
+footer .btn:hover{
+    background: #E5E5E5;
+    color: #d31460;
+    font-weight: 600;
+}
+
+footer p{
+    color: #d3d1d1;
 }

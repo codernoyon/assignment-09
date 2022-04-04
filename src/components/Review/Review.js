@@ -15,7 +15,7 @@ const Review = ({ review }) => {
                 }
             </p>
             <h3 className="text-2xl">{name}</h3>
-            <small>rating: {ratings}</small>
+            <small>Ratings: {ratings}</small>
         </div>
     );
 };  
