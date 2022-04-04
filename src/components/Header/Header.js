@@ -28,7 +28,7 @@ const Header = () => {
                         <NavLink className={({isActive}) => (isActive ? "active-link" : "link")} to='/about'>About</NavLink>
                     </li>
                 </ul>
-                <button className='hidden lg:block btn'>Login</button>
+                <button className='lg:block btn'>Login</button>
                 <button onClick={() => setOpen(!open)} className='w-7 h-7 lg:hidden'>
                     {open ? <XIcon></XIcon> : <MenuIcon></MenuIcon>}
                 </button>
