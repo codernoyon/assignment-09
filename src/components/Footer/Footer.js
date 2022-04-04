@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="mx-auto w-5/6">
                 <div className='grid lg:grid-cols-4 gap-4'>
                     <div>
-                        <h3 className="text-xl">Quick Link</h3>
+                        <h3 className="text-xl">Quick Links</h3>
                         <ul className='footer-links'>
                             <Link to="/">Home</Link>
                             <Link to="/reviews">Reviews</Link>
@@ -26,7 +26,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h3 className="text-xl">Quick Link</h3>
+                        <h3 className="text-xl">Socila Links</h3>
                         <ul className='footer-links'>
                             <Link to="/">Facebook</Link>
                             <Link to="/">Twitter</Link>
@@ -35,7 +35,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h3 className="text-xl">Quick Link</h3>
+                        <h3 className="text-xl">Newslatter</h3>
                         <div className='space-y-2'>
                             <input placeholder='Your email address' className='w-full p-1 px-3 rounded-sm' type="text" name="" id="" />
                             <button className='w-full btn'>Subscribe</button>
