@@ -10,27 +10,27 @@ const Footer = () => {
                     <div>
                         <h3 className="text-xl">Quick Links</h3>
                         <ul className='footer-links'>
-                            <Link to="/">Home</Link>
-                            <Link to="/reviews">Reviews</Link>
-                            <Link to="/dashboard">Dashboard</Link>
-                            <Link to="/blogs">Blogs</Link> 
-                            <Link to="/about">About</Link> 
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/reviews">Reviews</Link></li>
+                            <li><Link to="/dashboard">Dashboard</Link></li>
+                            <li><Link to="/blogs">Blogs</Link></li> 
+                            <li><Link to="/about">About</Link> </li>
                         </ul>
                     </div>
                     <div>
                         <h3 className="text-xl">Blogs</h3>
                         <ul className='footer-links'>
-                            <Link to="/">Smart Watches</Link>
-                            <Link to="/">Best Thing for you</Link>
-                            <Link to="/">Project 24</Link>
+                            <li><Link to="/">Smart Watches</Link></li>
+                            <li><Link to="/">Best Thing for you</Link></li>
+                            <li><Link to="/">Project 24</Link></li>
                         </ul>
                     </div>
                     <div>
-                        <h3 className="text-xl">Socila Links</h3>
+                        <h3 className="text-xl">Social Links</h3>
                         <ul className='footer-links'>
-                            <Link to="/">Facebook</Link>
-                            <Link to="/">Twitter</Link>
-                            <Link to="/">LinkedIn</Link>
+                            <li><Link to="/">Facebook</Link></li>
+                            <li><Link to="/">Twitter</Link></li>
+                            <li><Link to="/">LinkedIn</Link></li>
                             
                         </ul>
                     </div>
