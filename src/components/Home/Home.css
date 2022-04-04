@@ -2,3 +2,20 @@
     color: #4E4E50;
     font-family: 'Roboto', sans-serif;
 }
+
+.section-title{
+    position: relative;
+    
+}
+
+.section-title::after{
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 3px;
+    background: #C3073F;
+    right: 50%;
+    bottom: 0;
+    transform: translateX(105%);
+    border-radius: .5rem;
+}
