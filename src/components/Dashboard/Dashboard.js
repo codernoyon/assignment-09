@@ -14,10 +14,10 @@ const Dashboard = () => {
         <section>
             <div className="mx-auto w-5/6 py-12">
                 <h2 className="text-4xl text-center mb-8">Product Analysis</h2>
-                <div className="grid lg:grid-cols-2 gap-6 items-center justify-between">
+                <div className=" grid lg:grid-cols-2 gap-6 items-center justify-between">
                     <div className="chart w-full">
                         <BarChart 
-                            width={400}
+                            width={300}
                             height={300}
                             data={data}
                         
@@ -33,7 +33,7 @@ const Dashboard = () => {
                         </BarChart>
                     </div>
                     <div className="chart w-full">
-                        <PieChart width={400} height={300}>
+                        <PieChart width={300} height={300}>
                             <Pie data={data} dataKey="sell" cx="50%" cy="50%" outerRadius={60} fill="#950740" />
                             <Pie isAnimationActive={false} data={data} dataKey="revenue" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#C3073F" label />
                             <Tooltip />
@@ -41,7 +41,7 @@ const Dashboard = () => {
                         </PieChart>
                     </div>
                     <div className="chart w-full">
-                        <LineChart width={400} height={300} data={data}>
+                        <LineChart width={300} height={300} data={data}>
                             <XAxis dataKey="month"/>
                             <YAxis />
                             <Tooltip />

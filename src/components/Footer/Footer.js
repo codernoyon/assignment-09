@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="mx-auto w-5/6">
-                <div className='grid lg:grid-cols-4 gap-4'>
+                <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-4'>
                     <div>
                         <h3 className="text-xl">Quick Links</h3>
                         <ul className='footer-links'>
